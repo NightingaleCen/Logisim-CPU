@@ -75,8 +75,14 @@ nop
 nop
 nop
 nop
+beq $11, $12, label_end
 label3:
 ori $12,$0,1
+nop
+nop
+nop
+nop
+jr $31
 nop
 nop
 nop
